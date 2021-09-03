@@ -1,6 +1,8 @@
 import { User } from "../model/User";
 
 interface ICreateUserDTO {
+  id?: string;
+  admin?: boolean;
   name: string;
   email: string;
 }
